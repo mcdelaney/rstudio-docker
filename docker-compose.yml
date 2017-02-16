@@ -1,0 +1,8 @@
+version: '2'
+services:
+  rstudio:
+    build: .
+    ports:
+     - "80:8787"
+    volumes:
+     - $HOME:/home/rstudio
